@@ -3,7 +3,7 @@
 A comprehensive collection of 30 browser-based mini-games built with HTML, CSS, and JavaScript, featuring a modern homepage with game selection interface and seamless navigation.
 
 ## 🎮 Live Website
-**Visit the live website:** https://yvvc3d5bfbtmk.ok.kimi.link
+**Visit the live website:** https://ydrgzm.github.io/gamehub-mini-games/
 
 ## 📋 Features
 
@@ -123,17 +123,6 @@ Each game includes a floating home button with:
 - **Load Time**: <3 seconds on average connection
 - **Compatibility**: Modern browsers (Chrome, Firefox, Safari, Edge)
 
-## 🎯 Future Enhancements
-
-Potential improvements for future versions:
-- User progress tracking
-- Game difficulty settings
-- Leaderboard system
-- Multiplayer functionality
-- Mobile app version
-- Additional game categories
-- Sound control options
-
 ## 📄 License
 
 This project includes games from the original repository by he-is-talha. Please refer to the original LICENSE file for specific game licensing information.
@@ -145,41 +134,3 @@ This is a curated collection of mini-games. For new game additions or improvemen
 ---
 
 **Enjoy playing!** 🎮✨
-
-## 🌐 Deploying to GitHub Pages
-
-There are two easy ways to publish this site with GitHub Pages. The recommended way uses GitHub Actions (already configured in this repo).
-
-### Option A — GitHub Actions (recommended)
-1. Push this project to a GitHub repository (make sure your default branch is `main`).
-2. In GitHub, go to Settings → Pages.
-3. Under "Build and deployment", set Source to "GitHub Actions" (the workflow is pre-configured in `.github/workflows/pages.yml`).
-4. Push any change to `main` (or use "Run workflow" from the Actions tab). The site will deploy automatically.
-
-Your site will be available at:
-- User/Org site: `https://<username>.github.io/`
-- Project site: `https://<username>.github.io/<repo>/`
-
-Notes:
-- A `.nojekyll` file is included to prevent Jekyll processing.
-- All links in this project are relative, so it works whether served from the domain root or from `/repo`.
-
-### Option B — Deploy from branch (no Actions)
-1. In GitHub, go to Settings → Pages.
-2. Under "Build and deployment", choose "Deploy from a branch".
-3. Select Branch: `main`, Folder: `/ (root)`, then Save.
-4. Wait for Pages to build and publish.
-
-### First-time setup (if starting locally)
-If you haven’t created the Git repo yet, run these commands in PowerShell from the project root:
-
-```powershell
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/<username>/<repo>.git
-git push -u origin main
-```
-
-Then follow Option A or B above.
